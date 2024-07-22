@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MusicSchool>
+  <class-room Name="Guitar-Jazz">
+    <Teacher Name="Yosi Levi" />
+    <Student Name="Enosh">Guitar</Student>
+    <Student Name="Avi">Accordion</Student>
+    <Student Name="Eli">Piano</Student>
+    <Student Name="Zevi">Flute</Student>
+  </class-room>
+</MusicSchool>
