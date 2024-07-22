@@ -163,5 +163,10 @@ namespace musicSchool.Service
                 student.InstrumentName
                 );
         }
+
+        public static void Enosh()
+        {
+            MessageBox.Show("Hi");
+        }
     }
 }
