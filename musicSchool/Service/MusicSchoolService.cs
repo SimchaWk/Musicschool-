@@ -38,20 +38,6 @@ namespace musicSchool.Service
             doc.Save(musicSchoolPath);
         }
 
-/*        public static bool IsExistTeacherInClass(string classroomName, string teacherName)
-        {
-            XDocument doc = XDocument.Load(musicSchoolPath);
-            XElement? musicSchool =
-                doc.Descendants("MusicSchool").FirstOrDefault();
-
-            if (musicSchool == null) { return; }
-
-            XElement? classroom = musicSchool.Descendants("class-room")
-                .FirstOrDefault(element => element.Attribute("Name")?.Value == classroomName);
-
-            if (classroom == null) { return; }
-        }*/
-
         public static void AddTeacher(string classroomName, string teacherName)
         {
             XDocument doc = XDocument.Load(musicSchoolPath);
@@ -142,9 +128,40 @@ namespace musicSchool.Service
             doc.Save(musicSchoolPath);
         }
 
-        public static void ReplaceStudent(Student student)
+        public static void ReplaceStudent(Student studentToReplace, Student newStudent)
         {
+            XDocument? doc = XDocument.Load(musicSchoolPath);
 
+            XElement? studentElement = doc.Descendants("Teacher")
+                .FirstOrDefault(e => e.Attribute("Name")?.Value == studentToReplace.Name);
+
+            if (studentElement == null) { return; };
+
+            studentElement.SetAttributeValue("Name", newStudent.Name);
+            studentElement.SetValue(newStudent.InstrumentName.instrumentName);
+
+            doc.Save(musicSchoolPath);
+        }
+
+        public static bool IsStudentExist(Student student)
+        {
+            XDocument? doc = XDocument.Load(musicSchoolPath);
+
+            return doc.Descendants(student.Name).Any();
+
+        }
+
+        public static void DeleteStudent(string studentName)
+        {
+            XDocument? doc = XDocument.Load(musicSchoolPath);
+            XElement? studentElement = doc.Descendants("Student")
+                .FirstOrDefault(e => e.Attribute("Name")?.Value == studentName);
+
+            if (studentElement == null) { return; }
+
+            studentElement.Remove();
+
+            doc.Save(musicSchoolPath);
         }
 
         private static Student ConvertElementToStudent(XElement studentElement)
@@ -162,11 +179,6 @@ namespace musicSchool.Service
                 new XAttribute("Name", student.Name),
                 student.InstrumentName
                 );
-        }
-
-        public static void Enosh()
-        {
-            MessageBox.Show("Hi");
         }
     }
 }

@@ -14,3 +14,4 @@ C:\Users\Simch\source\repos\musicSchool\musicSchool\obj\Debug\net8.0-windows\mus
 C:\Users\Simch\source\repos\musicSchool\musicSchool\obj\Debug\net8.0-windows\musicSchool.genruntimeconfig.cache
 C:\Users\Simch\source\repos\musicSchool\musicSchool\obj\Debug\net8.0-windows\ref\musicSchool.dll
 C:\Users\Simch\source\repos\musicSchool\musicSchool\obj\Debug\net8.0-windows\musicSchool.MainForm.resources
+C:\Users\Simch\source\repos\musicSchool\musicSchool\obj\Debug\net8.0-windows\musicSchool.sourcelink.json

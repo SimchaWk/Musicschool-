@@ -26,17 +26,15 @@ namespace musicSchool
             // AddTeacher("Guitar-Jazz", "Yosi Levi");
             // AddStudent("Guitar-Jazz", "Enosh", "Guitar");
 
-
             Student st1 = new("Avi", new Instrument("Guitar"));
             Student st2 = new("Eli", new Instrument("Piano"));
             Student st3 = new("Zevi", new Instrument("Flute"));
 
             // AddManyStudents("Guitar-Jazz", st1, st2, st3);
 
-            UpDataInstrument("Guitar-Jazz", "Avi", "Accordion");
+            // UpDataInstrument("Guitar-Jazz", "Avi", "Accordion");
 
-            UpDataTeacher("Yosi LeviLevi", "Yosi Levi");
-            
+            // UpDataTeacher("Yosi LeviLevi", "Yosi Levi");
         }
 
         public static void Foo()

@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|solutionrelative:musicschool\\service\\musicschoolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|c:\\users\\simch\\source\\repos\\musicschool\\musicschool\\service\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|solutionrelative:musicschool\\service\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|c:\\users\\simch\\source\\repos\\musicschool\\musicschool\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|solutionrelative:musicschool\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|c:\\users\\simch\\source\\repos\\musicschool\\musicschool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|solutionrelative:musicschool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|c:\\users\\simch\\source\\repos\\musicschool\\musicschool\\model\\instrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|solutionrelative:musicschool\\model\\instrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|c:\\users\\simch\\source\\repos\\musicschool\\musicschool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49D38DA8-75CE-4452-9E20-C05D54EE3C3F}|musicSchool\\musicSchool.csproj|solutionrelative:musicschool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Practice.cs",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\Service\\Practice.cs",
+              "RelativeDocumentMoniker": "musicSchool\\Service\\Practice.cs",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\Service\\Practice.cs",
+              "RelativeToolTip": "musicSchool\\Service\\Practice.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:56:10.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "musicSchool\\Model\\Student.cs",
+              "ToolTip": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\Model\\Student.cs",
+              "RelativeToolTip": "musicSchool\\Model\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T15:51:11.145Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -36,21 +66,10 @@
               "RelativeDocumentMoniker": "musicSchool\\Model\\Instrument.cs",
               "ToolTip": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\Model\\Instrument.cs",
               "RelativeToolTip": "musicSchool\\Model\\Instrument.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T11:06:10.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\Model\\Student.cs",
-              "RelativeDocumentMoniker": "musicSchool\\Model\\Student.cs",
-              "ToolTip": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\Model\\Student.cs",
-              "RelativeToolTip": "musicSchool\\Model\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T11:02:37.779Z"
+              "WhenOpened": "2024-07-22T15:51:06.285Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,22 +79,23 @@
               "RelativeDocumentMoniker": "musicSchool\\Service\\MusicSchoolService.cs",
               "ToolTip": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\Service\\MusicSchoolService.cs",
               "RelativeToolTip": "musicSchool\\Service\\MusicSchoolService.cs",
-              "ViewState": "AQIAAJgAAAAAAAAAAAAwwKgAAAAfAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwCYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T08:30:57.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\MainForm.cs",
               "RelativeDocumentMoniker": "musicSchool\\MainForm.cs",
               "ToolTip": "C:\\Users\\Simch\\source\\repos\\musicSchool\\musicSchool\\MainForm.cs",
               "RelativeToolTip": "musicSchool\\MainForm.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwCUAAAA1AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T06:27:09.268Z"
+              "WhenOpened": "2024-07-22T06:27:09.268Z",
+              "EditorCaption": ""
             }
           ]
         }
